@@ -1,0 +1,1 @@
+python SourceCode\Moniter\app.py                .venv\scripts\activate
