@@ -1,5 +1,6 @@
-This project is in developement. The goal is to have a working planter moniter sutible for use. It can be run on a tablet with AgOpenGPS (check it out on github), so you can get closer to a "One Screen Tractor Moniter".
+# OpenSeedView
 
+This project is in developement. The goal is to have a working planter moniter sutible for use. It can be run on a tablet with AgOpenGPS (check it out on github), so you can get closer to a "One Screen Tractor Moniter".
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
