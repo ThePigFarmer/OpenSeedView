@@ -3,7 +3,7 @@ import os as os
 import hardwareinterface as micro
 import agopengpsinterface as aog
 
-gui_folder = os.path.dirname(os.path.realpath(__file__))+'\Web'
+gui_folder = os.path.dirname(os.path.realpath(__file__))+'\web'
 eel.init(gui_folder)
 
 
