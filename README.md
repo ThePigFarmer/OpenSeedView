@@ -1,5 +1,5 @@
 # OpenSeedView
-This project is in developement. The goal is to have a working planter monitor sutible for use. It can be run on a tablet with AgOpenGPS (check it out on github).
+This project is in developement. The goal is to have a working planter monitor suitable for use. It can be run on a tablet with AgOpenGPS (check it out on github).
 
 # Contributing suggestions for developers
 It is reccomended to create a virtual environment to keep module versions isolated:
