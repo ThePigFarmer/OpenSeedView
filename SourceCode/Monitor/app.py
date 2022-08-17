@@ -9,15 +9,11 @@ eel.init(gui_folder)
 
 @eel.expose
 def gui_thread():
-    while True:
-        eel.sleep(1)
-        print('updating gui')
+    print('updating gui')
 
-
-eel.spawn(gui_thread)
 
 eel.start('index.html')
 
 
 while True:
-    aog.speed
+    x=3
