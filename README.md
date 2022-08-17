@@ -1,20 +1,6 @@
 # OpenSeedView
 This project is in developement. The goal is to have a working planter monitor suitable for use. It can be run on a tablet with AgOpenGPS (check it out on github).
 
-# Contributing suggestions for developers
-It is reccomended to create a virtual environment to keep module versions isolated:
-```
-python -m venv .venv
-```
-Activate the virtual environment:
-```
-.venv/Scripts/activate
-```
-Now, install all the modules:
-```
-pip install -r requirements.txt
-```
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
