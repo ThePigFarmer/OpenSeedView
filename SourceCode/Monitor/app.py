@@ -1,7 +1,7 @@
 import eel as eel
 import os as os
-import hardwareinterface as micro
-import agopengpsinterface as aog
+import micro as micro
+import aog as aog
 
 gui_folder = os.path.dirname(os.path.realpath(__file__))+'\web'
 eel.init(gui_folder)
@@ -20,4 +20,4 @@ eel.start('index.html')
 
 
 while True:
-    get_speed()
+    aog.speed
