@@ -1,2 +1,0 @@
-pip install --trusted-host pypi.python.org Eel
-pip install Eel --trusted-host pypi.org --trusted-host files.pythonhosted.org
