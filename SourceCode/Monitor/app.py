@@ -14,6 +14,7 @@ def update_gui():
 
 @eel.expose
 def row_count():
+    print('js wants row count')
     return micro.imp['row_count']
 
 eel.start('index.html')
