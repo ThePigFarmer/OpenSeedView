@@ -8,9 +8,15 @@ eel.init(gui_folder)
 
 
 @eel.expose
-def gui_thread():
+def update_gui():
     print('updating gui')
 
+@eel.expose
+def gui_setup():
+
+@eel.expose
+def row_count():
+    return micro.planter.row_count
 
 eel.start('index.html')
 
