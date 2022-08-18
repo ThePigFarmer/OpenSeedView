@@ -10,6 +10,8 @@ eel.init(gui_folder)
 @eel.expose
 def update_gui():
     print('updating gui')
+    print('current seed count per sec', micro.current_seed_count_per_second)
+    
 
 
 @eel.expose

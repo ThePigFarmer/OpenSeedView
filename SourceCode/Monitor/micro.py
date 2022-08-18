@@ -1,4 +1,4 @@
-current_seed_count_per_second = [20, 21, 31, 19, 39, 41, 27, 23]
+current_seed_count_per_second = [20, 21, 31, 19, 39, 41, 27, 23,]
 
 
 imp = {
