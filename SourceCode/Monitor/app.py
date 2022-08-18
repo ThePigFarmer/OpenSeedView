@@ -11,15 +11,18 @@ eel.init(gui_folder)
 def update_gui():
     print('updating gui')
 
+
 @eel.expose
 def gui_setup():
+
 
 @eel.expose
 def row_count():
     return micro.planter.row_count
 
+
 eel.start('index.html')
 
 
 while True:
-    x=3
+    x = 3
