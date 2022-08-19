@@ -2,9 +2,17 @@ import eel as eel
 import os as os
 import micro as micro
 import aog as aog
+from operator import index
 
 gui_folder = os.path.dirname(os.path.realpath(__file__))+'\web'
 eel.init(gui_folder)
+
+def avg(list):
+    avg = sum(list) / len(list)
+    return avg
+
+def index_min(list):
+    return list.index(min(list))
 
 
 @eel.expose
@@ -16,7 +24,7 @@ def update_gui():
 
 @eel.expose
 def row_count():
-    print('js wants row count')
     return micro.imp['row_count']
 
 eel.start('index.html')
+######################################################################################
