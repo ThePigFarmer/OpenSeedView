@@ -35,14 +35,16 @@
 
 .calculator__keys {
     display: grid;
-
+    border: none;
+    padding: 3px;
     grid-template-columns: repeat(4, 1fr);
 }
 
+/*
 .calculator__key {}
 
 .calculator__key--operator {}
-
+*/
 .calculator__key--enter {
     grid-column: 4 / 5;
     /* Start at column #4 and end at column #5 (the very right edge). */
